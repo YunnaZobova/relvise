@@ -1,0 +1,93 @@
+.support {
+	padding: 11.2rem 0 8rem 0;
+
+	&__wrap {
+		display: flex;
+		text-align: center;
+		align-items: center;
+	}
+
+	&__column {
+		background-color: #FFFFFF;
+		padding: 5rem 4rem;
+		width: 33.33%;
+		box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.13);
+	}
+
+	&__logo {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1.6rem;
+		height: 7.2rem;
+	}
+
+	&__link {
+		color: #252B42;
+	}
+
+	&__button {
+		margin: 1.6rem 0;
+	}
+
+	&__submit {
+		color: #FF7B47;
+		border: 0.1rem solid #FF7B47;
+		border-radius: 0.5rem;
+		padding: 1rem 2rem;
+		background-color: #FFFFFF;
+	}
+}
+
+.column-center {
+	padding: 8rem 0;
+	background-color: #252B42;
+	color: #FFFFFF;
+
+	a {
+		color: #FFFFFF;
+	}
+
+	.support__button {
+		color: #FFFFFF;
+	}
+
+	.support__submit {
+		color: #FFFFFF;
+		background-color: #252B42;
+	}
+}
+
+@media (max-width: 975px) {
+	.support {
+		padding: 4rem 0rem;
+	}
+}
+
+@media (max-width: 786px) {
+	.support {
+
+		.subtitle {
+			margin-bottom: 4.8rem;
+		}
+
+		&__wrap {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		&__column {
+			padding: 3rem 2rem;
+			width: 75%;
+		}
+	}
+
+	.column-center {
+		width: 93%;
+		padding: 3rem 2rem;
+	}
+}
+@media (max-width: 416px) {
+	.support {
+		padding: 3rem 0rem;
+	}
+}

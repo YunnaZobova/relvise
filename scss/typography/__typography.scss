@@ -1,0 +1,111 @@
+.h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5.8rem;
+	font-weight: 800;
+	line-height: 8rem;
+}
+
+.h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 5.8rem;
+}
+
+.h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 700;
+	line-height: 3.2rem;
+}
+
+.h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 3rem;
+}
+
+.h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 2.4rem;
+}
+
+.h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 2.4rem;
+}
+
+.btn-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 2rem;
+}
+
+.paragraph {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 2rem;
+}
+
+@media (max-width: 975px) {
+	.h2 {
+		font-size: 3.2rem;
+		line-height: 5.4rem;
+	}
+
+	.h6 {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 786px) {
+	.h2 {
+		font-size: 2.8rem;
+		line-height: 5rem;
+	}
+
+	.h3 {
+		font-size: 2.2rem;
+	}
+
+	.h5 {
+		font-size: 1.4rem;
+	}
+
+}
+
+@media (max-width: 670px) {
+	.h1 {
+		font-size: 5rem;
+		line-height: 7.2rem;
+	}
+
+	.h4 {
+		font-size: 1.8rem;
+	}
+
+	.btn-text {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 450px) {
+	.h1 {
+		font-size: 4.6rem;
+		line-height: 6.6rem;
+	}
+}
+
+@media (max-width: 416px) {
+	.h1 {
+		font-size: 4rem;
+		line-height: 5.4rem;
+	}
+}

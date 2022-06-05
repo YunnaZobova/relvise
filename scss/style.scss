@@ -1,0 +1,46 @@
+@import "../scss/reset/_reset";
+@import "../scss/typography/_typography";
+@import "../scss/styles/_buttons";
+@import "../scss/styles/_icons";
+
+//sections
+@import "../scss/sections/_nav-menu";
+@import "../scss/sections/_main";
+@import "../scss/sections/_consultation";
+@import "../scss/sections/_success";
+@import "../scss/sections/_advice";
+@import "../scss/sections/_about";
+@import "../scss/sections/_sponsor";
+@import "../scss/sections/_newsletter";
+@import "../scss/sections/_support";
+@import "../scss/sections/_contacts";
+@import "../scss/sections/_info";
+@import "../scss/sections/_footer";
+
+
+html {
+	color: #252B42;
+}
+
+body {
+	background: #FAFAFA;
+}
+
+.container {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding-right: 1.4rem;
+	padding-left: 1.4rem;
+	position: relative;
+}
+
+.title {
+	margin-bottom: 1.4rem;
+	text-align: center;
+}
+
+.subtitle {
+	margin-bottom: 5.6rem;
+	color: #737373;
+	text-align: center;
+}

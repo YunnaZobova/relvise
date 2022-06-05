@@ -1,0 +1,86 @@
+.consultation {
+	margin-top: -14rem;
+	padding-bottom: 8rem;
+
+	&__content {
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+	}
+}
+
+.list {
+	background: #FFFFFF;
+	margin-right: 3%;
+	padding: 4rem 9.6rem 4rem 4rem;
+	width: 33.33%;
+	height: auto;
+	box-shadow: 0px 1.3rem 1.9rem rgba(0, 0, 0, 0.07);
+
+	.h3 {
+		font-size: 1.8rem;
+	}
+
+	.paragraph {
+		font-size: 1.2rem;
+	}
+
+	&__icon {
+		padding-bottom: 1.4rem;
+	}
+
+	&__title {
+		padding-bottom: 1.4rem;
+
+	}
+
+	&__description:nth-last-child {
+		color: #737373;
+	}
+}
+
+.list:last-child {
+	background: #0D5C63;
+	color: #FFFFFF;
+	margin-right: 0;
+}
+
+@media (max-width: 975px) {
+	.consultation {
+		padding-bottom: 4rem;
+	}
+	.list {
+		padding: 2.8rem 4rem 2.8rem 2.8rem;
+	}
+}
+
+@media (max-width: 670px) {
+	.consultation__content {
+		flex-wrap: wrap;
+	}
+
+	.list {
+		width: 45%;
+		margin-bottom: 4rem;
+	}
+
+	.list:last-child {
+		width: 93%;
+		margin-bottom: 0;
+	}
+
+	.list:nth-child(2) {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 416px) {
+	.consultation {
+		padding-bottom: 3rem;
+	}
+	.list {
+		width: 83%;
+		margin-right: 0;
+		margin-bottom: 2.8rem;
+	}
+}

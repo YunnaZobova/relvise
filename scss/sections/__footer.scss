@@ -1,0 +1,39 @@
+.footer {
+	margin: 2.4rem 0;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	a {
+		margin-right: 4rem;
+	}
+
+	a:last-child {
+		margin-right: 0;
+	}
+
+	&__text {
+		margin-right: 3%;
+	}
+
+	&__icon {
+		img {
+			width: 2rem;
+		}
+	}
+}
+
+@media (max-width: 670px) {
+	.footer__content {
+		justify-content: center;
+	}
+
+	.footer__text {
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+}

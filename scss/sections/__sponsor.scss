@@ -1,0 +1,18 @@
+.sponsor {
+	padding: 4rem 0;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	img {
+		max-width: 11%;
+	}
+}
+
+@media (max-width: 786px) {
+	.sponsor {
+		padding: 3rem 0;
+	}
+}

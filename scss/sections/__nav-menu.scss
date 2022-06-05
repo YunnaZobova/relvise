@@ -1,0 +1,133 @@
+.header {
+	position: fixed;
+	width: 100%;
+	height: 8rem;
+	top: 0;
+	left: 0;
+	padding: 5px 0;
+	z-index: 100;
+	background-color: #FAFAFA;
+	box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.13);
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 2rem 0;
+	}
+
+	&__title {
+		margin-right: 11.2rem;
+	}
+
+	&__menu {
+		display: flex;
+		position: relative;
+		z-index: 2;
+
+		a {
+			color: #737373;
+		}
+	}
+
+	&__menu li {
+		list-style: none;
+		margin: 0px 0px 0px 3.6rem;
+		font-size: 1.6rem;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}
+
+@media(max-width: 767px) {
+	.header {
+		height: 6rem;
+
+		&__container {
+			padding: 0.5rem 0;
+		}
+
+		&__nav {
+			display: block;
+			position: absolute;
+			top: 5.5rem;
+			left: 0;
+			background: #FAFAFA;
+			width: 100%;
+			box-shadow: 0 0.4rem 2.3rem rgba(0, 0, 0, 0.13);
+			transition: all 0.4s ease;
+			left: -100%;
+			border-radius: 0 0 5rem 5rem;
+		}
+
+		&__menu {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		&__nav.open-menu {
+			left: 0;
+			box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.13);
+		}
+
+		&__menu li {
+			margin: 0.5rem 0;
+		}
+
+		&__menu-burger {
+			position: relative;
+			width: 4rem;
+			height: 3.5rem;
+			display: block;
+			margin-left: 10px;
+		}
+
+		&__menu-burger span,
+		&__menu-burger:after,
+		&__menu-burger:before {
+			height: 0.3rem;
+			width: 100%;
+			position: absolute;
+			background: #515758;
+			margin: 0 auto;
+		}
+
+		&__menu-burger span {
+			top: 1.6rem;
+		}
+
+		&__menu-burger:after,
+		&__menu-burger:before {
+			content: '';
+		}
+
+		&__menu-burger:after {
+			bottom: 0.5rem;
+		}
+
+		&__menu-burger:before {
+			top: 0.5rem;
+		}
+
+		&__menu-burger.open-menu span {
+			opacity: 0;
+			transition: 0.5s;
+		}
+
+		&__menu-burger.open-menu:before {
+			transform: rotate(38deg);
+			top: 1.6rem;
+			transition: 0.4s;
+		}
+
+		&__menu-burger.open-menu:after {
+			transform: rotate(-38deg);
+			bottom: 1.6rem;
+			transition: 0.4s;
+		}
+	}
+
+	// .fixed-pade {
+	// 	overflow: hidden;
+	// }
+}
